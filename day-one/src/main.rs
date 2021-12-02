@@ -75,13 +75,13 @@ mod tests {
     fn test_part_one() {
         let nums = [1, 2, 5, 5, 2];
         let answer = part_one(&nums);
-        assert_eq!(answer, 2);
+        assert_eq!(answer, 2); //calc by hand
     }
 
     #[test]
     fn test_part_two() {
         let nums = [85, 120, 194, 21, 15, 250, 354, 908, 342];
         let answer = part_two(&nums);
-        assert_eq!(answer, 4);
+        assert_eq!(answer, 4); //calc by hand
     }
 }
